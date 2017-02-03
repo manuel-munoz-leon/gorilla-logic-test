@@ -6,13 +6,6 @@
     "build": "rimraf build && webpack",
     "start": "webpack-dev-server"
   },
-  "ava": {
-    "files": "app/components/views/**/*.spec.js",
-    "source": "app/components/views/**/*.js",
-    "require": "babel-register",
-    "babel": "inherit",
-    "failFast": true
-  },
   "nyc": {
     "include": "app/components/**/*.js",
     "exclude": "**/*.spec.js"
