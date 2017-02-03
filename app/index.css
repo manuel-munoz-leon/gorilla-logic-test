@@ -1,0 +1,90 @@
+body {
+  padding: 1em;
+}
+
+.main-content{
+  margin: auto;
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+span{
+  color: #797978;
+  font-size: 14px;
+  font-weight: 800;
+  float: left;
+  margin-right: 5px;
+}
+
+.panel-heading{
+  background-color: #000;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.panel-body{
+  background-color: #ebebeb;
+  border-radius: 10px;
+}
+
+.panel-body.inner{
+  background-color: #fff;
+}
+
+.progress{
+  width: 400px;
+  float: left;
+  overflow: visible;
+}
+
+.progress-bar{
+  position: relative;
+  background-color: #64b25b;
+}
+
+.progress-container{
+  float: left;
+  padding-top: 15px;
+}
+
+label{
+  position: absolute;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #000;
+  left: 100%;
+  margin-left: -1.2em;
+}
+
+.target{
+  color: #fff;
+  background-color: #797978;
+  border: 1px solid #000;
+  float: right;
+  width: 64px;
+  height: 52px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.icon{
+  position: absolute;
+  left: 9px;
+  top: -10px;
+}
+
+.info{
+  color: #5e8ba8;
+}
+
+.disclaimer{
+  text-align: center;
+  margin-top: 20px;
+  color: #797978;
+  font-size: 14px;
+}
