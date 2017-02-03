@@ -4,7 +4,7 @@
   "description": "Gorilla Test",
   "scripts": {
     "build": "rimraf build && webpack",
-    "start": "rimraf build && webpack"
+    "start": "webpack-dev-server"
   },
   "nyc": {
     "include": "app/components/**/*.js",
