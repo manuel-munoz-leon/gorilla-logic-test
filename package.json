@@ -4,7 +4,7 @@
   "description": "Gorilla Test",
   "scripts": {
     "build": "rimraf build && webpack",
-    "start": "webpack-dev-server"
+    "start": "rimraf build && webpack"
   },
   "ava": {
     "files": "app/components/views/**/*.spec.js",
